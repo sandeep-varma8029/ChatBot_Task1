@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Can I track my order?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Your order will be delivered within 2-4 business days",
+        "You should receive your order within 2-4 business days",
+        "We provide tracking information for all orders",
+        "You can track your order on our website using your order number"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh",
+        "Can you tell me a funny story?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why did the tomato turn red? Because it saw the salad dressing!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why did the chicken cross the playground? To get to the other slide!",
+        "Why couldn't the bicycle stand up by itself? Because it was two-tired!",
+        "What do you get when you cross a snowman and a shark? Frostbite!",
+        "Why did the golfer wear two pairs of pants? In case he got a hole in one!",
+        "What do you get when you cross a snowman and a vampire? Frostbite!",
+        "Why did the scarecrow win an award? Because he was out-standing in his field!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "What should I do?",
+"I'm stuck",
+"How can you assist me?",
+"What do you suggest?",
+"Do you have any advice?",
+"What can you do for me?",
+"Can you guide me?"
+],
+"responses": [
+"Of course! What do you need help with?",
+"Sure, I'd be happy to help. What's the issue?",
+"I'm here to help. What can I do for you?",
+"Absolutely, tell me what's going on and I'll do my best to assist you.",
+"Don't worry, I'm here to help. What do you need?",
+"I'm here to provide assistance. What can I do to help you?",
+"I'm ready to help. What's the problem?",
+"I'm happy to provide guidance. What do you need help with?",
+"Sure, tell me what's wrong and I'll see what I can do to help.",
+"I'm here to assist you in any way I can. What can I do for you?"
+]
+},
+{
+"tag": "name",
+"patterns": [
+"What's your name?",
+"What should I call you?",
+"May I know your name?",
+"What do you go by?",
+"Do you have a name?",
+"Who are you?"
+],
+"responses": [
+"My name is Sam. How may I assist you?",
+"You can call me Sam. What can I help you with?",
+"My name is Sam. What can I do for you?",
+"I go by the name Sam. How may I assist you?",
+"You can call me Sam. What do you need help with?",
+"My name is Sam. What can I help you with?"
+]
+},
+{
+"tag": "weather",
+"patterns": [
+"What's the weather like today?",
+"Will it rain today?",
+"Is it going to be sunny today?",
+"What's the temperature outside?",
+"Do I need an umbrella today?",
+"How's the weather?"
+],
+"responses": [
+"I'm sorry, I am not capable of providing the weather information at this moment.",
+"Unfortunately, I do not have access to real-time weather information.",
+"I'm sorry, I cannot provide the weather information right now.",
+"Sorry, I cannot assist you with that. How may I assist you with something else?",
+"Sorry, I'm not able to provide weather information at this time. What else can I help you with?",
+"I'm not able to provide weather information. How can I assist you in another way?"
+]
+},
+{
+"tag": "contact",
+"patterns": [
+"How can I contact you?",
+"Can I talk to a human?",
+"Can I get in touch with customer service?",
+"What's your customer service phone number?",
+"Can you give me your email address?",
+"Do you have a chat support?"
+],
+"responses": [
+"You can contact us at support@example.com",
+"Our customer service team can be reached at +1-123-456-7890",
+"We have a chat support available on our website.",
+"You can email us at contact@example.com",
+"Our customer service representatives are available 24/7 to assist you.",
+"Our customer service team is always ready to assist you. Please visit our website for more information."
+]
+}
+]
+}
