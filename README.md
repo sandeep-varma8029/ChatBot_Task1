@@ -1,6 +1,6 @@
 # PyTorch Chatbot
 
-This is a simple chatbot created using PyTorch framework. The chatbot is trained on a small dataset of predefined patterns and their corresponding responses. The chatbot uses bag-of-words model to process input text and generate responses based on a trained neural network model using NLP.
+This is a simple chatbot created using PyTorch framework. The chatbot is trained on a small dataset of predefined patterns and their corresponding responses. The chatbot uses bag-of-words model to process input text and generate responses based on a trained neural network model using NLP. 
 
 ## Libraries Used
 - numpy
